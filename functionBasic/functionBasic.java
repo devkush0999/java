@@ -13,14 +13,20 @@ public class functionBasic {
         System.out.println("Hello World");
 
     }
+
+
     public static int calculateSum( int a, int b ) {  //parameter 0r formal parameter
         int sum = a + b ; 
         return sum;
     }
+
+
     public static int multiply( int a, int b ) {  //parameter 0r formal parameter
         int multi = a * b ;
         return multi;
     }
+
+
     public  static int factorial(int n){
         int f = 1;
         for(int i = 1; i<=n; i++){
@@ -36,6 +42,26 @@ public class functionBasic {
         int binomial = fact_n / (fact_r * fact_n_r);
         return binomial;
     }
+
+    public static int sumOf2(int a , int b){
+        return a + b ;
+    }
+
+    public static int sumOf2(int a , int b ,  int c){
+        return a + b + c;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     public static void main(String[] args) {
@@ -60,6 +86,8 @@ public class functionBasic {
         System.out.println("Multiplied is :" + multi);
         System.out.println( "factoria is " + fact); 
         System.out.println("binomial is " + binom);
+        System.out.println("sum of 2 is " + sumOf2(a,b));
+        System.out.println("sum of 3 is " + sumOf2(a,b,10));
        
         
         // calculateSum(a,b);
