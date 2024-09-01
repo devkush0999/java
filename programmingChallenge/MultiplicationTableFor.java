@@ -9,7 +9,7 @@ class MultiplicationTableFor {
         int number = scanner.nextInt();
         
 
-        for(int  i = 1; i <= 999999999; i++) {
+        for(int  i = 1; i <= 10; i++) {
             System.out.println(number + " x " + i + " = " + number * i);
             }
             }
