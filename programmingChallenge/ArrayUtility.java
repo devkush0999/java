@@ -1,11 +1,10 @@
 package programmingChallenge;
 
-import java.util.Scanner;
+import java.util.*;
 
 public class ArrayUtility {
     public static int[] inputArray() {
 
-        @SuppressWarnings("resource")
         Scanner input = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int size = input.nextInt();
