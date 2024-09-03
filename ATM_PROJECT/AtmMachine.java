@@ -78,6 +78,7 @@ class ATM {
 
     public class AtmMachine {
         public static void main(String[] args) {
+            System.out.println("Welcome");
             ATM obj = new ATM();
             obj.checkpin();
 
